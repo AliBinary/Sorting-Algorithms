@@ -1,17 +1,41 @@
-# Sorting Algorithms Project
+# Sorting Algorithms Project 🌟
 
-This project contains the implementation of 7 different sorting algorithms written in C++. The following sorting algorithms are implemented:
+Welcome to the Sorting Algorithms Project, a comprehensive collection of the most commonly used sorting algorithms implemented in both C++ and Python. Whether you're a beginner looking to understand sorting or an experienced developer wanting to compare performance and implementation, this repository is the perfect resource.
 
-1. **Bubble Sort**
-2. **Selection Sort**
-3. **Insertion Sort**
-4. **Merge Sort**
-5. **Heap Sort**
-6. **Quick Sort (Hoare Partitioning)**
-7. **Quick Sort (Lomuto Partitioning)**
+## Features ✨
+
+* Multiple Sorting Algorithms: Includes 7 different sorting algorithms such as Bubble Sort, Selection Sort, Merge Sort, Heap Sort, Quick Sort, and more.
+* C++ & Python Implementations: Each algorithm is implemented in both C++ and Python, allowing you to explore different programming paradigms and environments.
+* Clear Animations: Visual animations for each sorting algorithm to help you grasp the logic behind each one.
+* Optimized Code: Carefully crafted to showcase different techniques and approaches to solving the same problem.
+* Easy to Extend: Easily add new algorithms or modify existing ones with minimal setup.
+
+## Algorithms Implemented 🚀
+
+**1. Bubble Sort**
+
+**2. Selection Sort**
+
+**3. Insertion Sort**
+
+**4. Merge Sort**
+
+**5. Heap Sort**
+
+**6. Quick Sort (Hoare Partitioning)**
+
+**7. Quick Sort (Lomuto Partitioning)**
+
+## Key Features 🌱
+
+* Educational Focus: Perfect for students, programmers, and algorithm enthusiasts who want to learn and understand the workings of sorting algorithms.
+
+* Cross-Language Comparison: Compare the performance and implementation style of sorting algorithms in two widely used programming languages, C++ and Python.
+
+* License: Distributed under the MIT License, allowing you to freely use, modify, and share this project.
 
 
-## Time Complexity of Algorithms
+## Time Complexity of Algorithms ⏳
 
 | Algorithm            | Best Case    | Average Case  | Worst Case    | Space Complexity |
 |----------------------|--------------|---------------|---------------|------------------|
@@ -23,23 +47,7 @@ This project contains the implementation of 7 different sorting algorithms writt
 | **Quick Sort (Hoare)**| O(n log n)   | O(n log n)    | O(n^2)        | O(log n)         |
 | **Quick Sort (Lomuto)**| O(n log n)  | O(n log n)    | O(n^2)        | O(log n)         |
 
-## Project Directory Structure
-
-```
-Sorting-Algorithms-Project/
-│
-├── bubble_sort.cpp        # Bubble Sort implementation in C++
-├── selection_sort.cpp     # Selection Sort implementation in C++
-├── insertion_sort.cpp     # Insertion Sort implementation in C++
-├── merge_sort.cpp         # Merge Sort implementation in C++
-├── heap_sort.cpp          # Heap Sort implementation in C++
-├── quick_sort_Hoare.cpp   # Quick Sort (Hoare Partitioning) implementation in C++
-├── quick_sort_Lomuto.cpp  # Quick Sort (Lomuto Partitioning) implementation in C++
-├── sort_algorithms.h      # Function declarations for sorting algorithms
-└── main.cpp               # Main file to run the algorithms and display results
-```
-
-## Animations
+## Animations ▶️
 
 For better understanding and learning, you can pay attention to the animations of each of the sorting algorithms:
 
@@ -57,7 +65,39 @@ For better understanding and learning, you can pay attention to the animations o
 ---
 ![Quick Sort (Lomuto): ](https://cdn.emre.me/sorting/quick_sort_lomuto.gif)
 
-## How to Run
+## Project Directory Structure 🗂️
+
+```
+Sorting-Algorithms-Project/
+│
+├── Cpp/                   # C++ implementation folder
+│   ├── bubble_sort.cpp    # Bubble Sort implementation in C++
+│   ├── selection_sort.cpp # Selection Sort implementation in C++
+│   ├── insertion_sort.cpp # Insertion Sort implementation in C++
+│   ├── merge_sort.cpp     # Merge Sort implementation in C++
+│   ├── heap_sort.cpp      # Heap Sort implementation in C++
+│   ├── quick_sort_Hoare.cpp # Quick Sort (Hoare Partitioning) implementation in C++
+│   ├── quick_sort_Lomuto.cpp # Quick Sort (Lomuto Partitioning) implementation in C++
+│   └── sort_algorithms.h  # Function declarations for sorting algorithms
+│   └── main.cpp  # Main C++ file to run all sorting algorithms
+│
+├── Python/                # Python implementation folder
+│   ├── bubble_sort.py     # Bubble Sort implementation in Python
+│   ├── selection_sort.py  # Selection Sort implementation in Python
+│   ├── insertion_sort.py  # Insertion Sort implementation in Python
+│   ├── merge_sort.py      # Merge Sort implementation in Python
+│   ├── heap_sort.py       # Heap Sort implementation in Python
+│   ├── quick_sort_hoare.py# Quick Sort (Hoare Partitioning) implementation in Python
+│   ├── quick_sort_lomuto.py # Quick Sort (Lomuto Partitioning) implementation in Python
+│   └── main.py            # Main Python file to run all sorting algorithms
+│
+├── .gitignore             # Git ignore file to exclude unwanted files from version control
+├── LICENSE                # MIT License file
+├── main.cpp               # Main file to run the C++ algorithms and display results
+└── README.md              # Project README file
+```
+
+## How to Run (C++ Files) 🤔
 
 To run the project, follow the steps below:
 
@@ -81,17 +121,38 @@ After compiling, run the program using the following command:
 
 The program will execute all sorting algorithms on a sample array and print the sorted results to the console.
 
-## Adding New Algorithms
+## How to Run (Python Files) 🤔
+
+If you want to run all algorithms using Python, navigate to the Python/ folder and run the main.py file, which will execute all sorting algorithms:
+
+```
+python3 Python/main.py
+```
+
+The main.py file will run each algorithm on a sample array and display the sorted results.
+
+## Adding New Algorithms 🤝
 
 If you want to add new sorting algorithms to this project, follow these steps:
+For C++:
+
 ```
 1. Implement the new algorithm in a new .cpp file (e.g., new_sort_algorithm.cpp).
-2. Add the function declaration to the sort_algorithms.h header file.
-3. Include the new .cpp file in the g++ compile command.
-4. Optionally, you can modify the main.cpp file to include and test your new algorithm.
+2. Add the function declaration to the cpp/sort_algorithms.h header file.
+3. Include the new .cpp file in the g++ compile command in README.md.
+4. Optionally, modify main.cpp to include and test your new algorithm.
 ```
-Feel free to contribute and extend the project by adding more sorting algorithms or improving existing ones!
 
-## Additional Information
+For Python:
 
-This project was created to demonstrate and explore various sorting algorithms and how they are implemented in C++. You can extend this code and add more algorithms as needed.
+```
+1. Implement the new algorithm in a new .py file (e.g., new_sort_algorithm.py).
+2. Import the new algorithm in python/main.py so it can be executed.
+3. Optionally, modify main.py to test the new algorithm with a sample array.
+```
+
+Feel free to contribute by adding new sorting algorithms or improving the existing ones!
+
+## Additional Information 🌱
+
+This repository was created to demonstrate and review various sorting algorithms and how to implement them in C++ and Python. You can expand this code for various applications and add more algorithms if needed.
