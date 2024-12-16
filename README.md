@@ -1,6 +1,6 @@
-# Sorting Algorithms Project 🌟
+# Sorting Algorithms 🌟
 
-Welcome to the Sorting Algorithms Project, a comprehensive collection of the most commonly used sorting algorithms implemented in both C++ and Python. Whether you're a beginner looking to understand sorting or an experienced developer wanting to compare performance and implementation, this repository is the perfect resource.
+Welcome to the Sorting Algorithms Repository, a comprehensive collection of the most commonly used sorting algorithms implemented in both C++ and Python. Whether you're a beginner looking to understand sorting or an experienced developer wanting to compare performance and implementation, this repository is the perfect resource.
 
 ## Features ✨
 
