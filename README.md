@@ -70,26 +70,26 @@ For better understanding and learning, you can pay attention to the animations o
 ```
 Sorting-Algorithms-Project/
 │
-├── Cpp/                   # C++ implementation folder
-│   ├── bubble_sort.cpp    # Bubble Sort implementation in C++
-│   ├── selection_sort.cpp # Selection Sort implementation in C++
-│   ├── insertion_sort.cpp # Insertion Sort implementation in C++
-│   ├── merge_sort.cpp     # Merge Sort implementation in C++
-│   ├── heap_sort.cpp      # Heap Sort implementation in C++
+├── Cpp/                      # C++ implementation folder
+│   ├── bubble_sort.cpp       # Bubble Sort implementation in C++
+│   ├── selection_sort.cpp    # Selection Sort implementation in C++
+│   ├── insertion_sort.cpp    # Insertion Sort implementation in C++
+│   ├── merge_sort.cpp        # Merge Sort implementation in C++
+│   ├── heap_sort.cpp         # Heap Sort implementation in C++
 │   ├── quick_sort_Hoare.cpp  # Quick Sort (Hoare Partitioning) implementation in C++
 │   ├── quick_sort_Lomuto.cpp # Quick Sort (Lomuto Partitioning) implementation in C++
 │   └── sort_algorithms.h     # Function declarations for sorting algorithms
 │   └── main.cpp              # Main file to run the C++ algorithms and display results
 │
-├── Python/                # Python implementation folder
-│   ├── bubble_sort.py     # Bubble Sort implementation in Python
-│   ├── selection_sort.py  # Selection Sort implementation in Python
-│   ├── insertion_sort.py  # Insertion Sort implementation in Python
-│   ├── merge_sort.py      # Merge Sort implementation in Python
-│   ├── heap_sort.py       # Heap Sort implementation in Python
-│   ├── quick_sort_hoare.py# Quick Sort (Hoare Partitioning) implementation in Python
-│   ├── quick_sort_lomuto.py # Quick Sort (Lomuto Partitioning) implementation in Python
-│   └── main.py            # Main Python file to run all sorting algorithms
+├── Python/                   # Python implementation folder
+│   ├── bubble_sort.py        # Bubble Sort implementation in Python
+│   ├── selection_sort.py     # Selection Sort implementation in Python
+│   ├── insertion_sort.py     # Insertion Sort implementation in Python
+│   ├── merge_sort.py         # Merge Sort implementation in Python
+│   ├── heap_sort.py          # Heap Sort implementation in Python
+│   ├── quick_sort_hoare.py   # Quick Sort (Hoare Partitioning) implementation in Python
+│   ├── quick_sort_lomuto.py  # Quick Sort (Lomuto Partitioning) implementation in Python
+│   └── main.py               # Main Python file to run all sorting algorithms
 │
 ├── .gitignore             # Git ignore file to exclude unwanted files from version control
 ├── LICENSE                # MIT License file
