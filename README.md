@@ -76,10 +76,10 @@ Sorting-Algorithms-Project/
 │   ├── insertion_sort.cpp # Insertion Sort implementation in C++
 │   ├── merge_sort.cpp     # Merge Sort implementation in C++
 │   ├── heap_sort.cpp      # Heap Sort implementation in C++
-│   ├── quick_sort_Hoare.cpp # Quick Sort (Hoare Partitioning) implementation in C++
+│   ├── quick_sort_Hoare.cpp  # Quick Sort (Hoare Partitioning) implementation in C++
 │   ├── quick_sort_Lomuto.cpp # Quick Sort (Lomuto Partitioning) implementation in C++
-│   └── sort_algorithms.h  # Function declarations for sorting algorithms
-│   └── main.cpp  # Main C++ file to run all sorting algorithms
+│   └── sort_algorithms.h     # Function declarations for sorting algorithms
+│   └── main.cpp              # Main file to run the C++ algorithms and display results
 │
 ├── Python/                # Python implementation folder
 │   ├── bubble_sort.py     # Bubble Sort implementation in Python
@@ -93,7 +93,6 @@ Sorting-Algorithms-Project/
 │
 ├── .gitignore             # Git ignore file to exclude unwanted files from version control
 ├── LICENSE                # MIT License file
-├── main.cpp               # Main file to run the C++ algorithms and display results
 └── README.md              # Project README file
 ```
 
