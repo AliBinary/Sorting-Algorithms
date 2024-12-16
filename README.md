@@ -91,9 +91,9 @@ Sorting-Algorithms-Project/
 │   ├── quick_sort_lomuto.py  # Quick Sort (Lomuto Partitioning) implementation in Python
 │   └── main.py               # Main Python file to run all sorting algorithms
 │
-├── .gitignore             # Git ignore file to exclude unwanted files from version control
-├── LICENSE                # MIT License file
-└── README.md              # Project README file
+├── .gitignore                # Git ignore file to exclude unwanted files from version control
+├── LICENSE                   # MIT License file
+└── README.md                 # Project README file
 ```
 
 ## How to Run (C++ Files) 🤔
